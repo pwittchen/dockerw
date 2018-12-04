@@ -42,6 +42,7 @@ by default you can call `./dockerw.sh` script with one of the following options:
 --help      shows help
 --build     builds container
 --run       runs container
+--runbg     runs container in background
 --cli       runs container with interactive cli (when possible)
 --push      pushes container to docker hub
 --pull      pulls container from docker hub

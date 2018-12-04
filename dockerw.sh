@@ -9,6 +9,7 @@ function showHelp() {
                 --help      shows help
                 --build     builds container
                 --run       runs container
+                --runbg     runs container in background
                 --cli       runs container with interactive cli (when possible)
                 --push      pushes container to docker hub
                 --pull      pulls container from docker hub
@@ -25,6 +26,10 @@ function buildDocker() {
 
 function runDocker() {
    sudo docker run -p $HOST:$PORT_IN:$PORT_OUT -t $IMAGE_NAME
+}
+
+function runDockerInBackground() {
+   sudo docker run -p $HOST:$PORT_IN:$PORT_OUT -td $IMAGE_NAME
 }
 
 function runDockerCli() {
@@ -66,6 +71,9 @@ while :; do
             ;;
         --run)
             runDocker
+            ;;
+        --runbg)
+            runDockerInBackground
             ;;
         --cli)
             runDockerCli
