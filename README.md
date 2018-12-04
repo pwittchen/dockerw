@@ -1,7 +1,7 @@
 # dockerw
 docker wrapper template bash script
 
-you can use it to simplify bash commands related to docker in your project
+you can use it to simplify bash commands related to docker in your project and make them more readable
 
 ## installation
 
@@ -50,3 +50,5 @@ by default you can call `./dockerw.sh` script with one of the following options:
 --list      shows available docker containers
 --ps        show running containers
 ```
+
+you can always type `./dockerw.sh --help` to show help
