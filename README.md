@@ -19,11 +19,11 @@ or with **curl**:
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/pwittchen/dockerw/master/install.sh)"
 ```
 
-then, `install.sh` script will copy `dockerw.sh` script and sample `.dockerw.config` file into your current directory
+then, `install.sh` script will copy `dockerw.sh` script into your current directory
 
 ## usage
 
-first, you need to configure your docker image settings in `.dockerw.config` file
+first, you need create `.dockerw.config` file in the same directory where you have `dockerw.sh` script and use it to configure your docker image settings
 
 default settings look as follows:
 
