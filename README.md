@@ -1,7 +1,7 @@
 # dockerw
 docker wrapper bash script template
 
-you can use it to simplify bash commands related to docker in your project and make them more readable
+you can use it to simplify bash commands related to docker in your project, make them shorter, more readable and avoid typing redundant information (like container name)
 
 ## installation
 
