@@ -10,7 +10,7 @@ go to the directory where you want to use docker wrapper and install it
 with **wget**:
 
 ```
-sh -c "$(wget https://raw.githubusercontent.com/pwittchen/dockerw/master/install.sh -O -)
+sh -c "$(wget https://raw.githubusercontent.com/pwittchen/dockerw/master/install.sh -O -)"
 ```
 
 or with **curl**:
