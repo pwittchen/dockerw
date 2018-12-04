@@ -1,5 +1,5 @@
 # dockerw
-docker wrapper template bash script
+docker wrapper bash script
 
 you can use it to simplify bash commands related to docker in your project and make them more readable
 
@@ -34,7 +34,7 @@ PORT_IN="7000"
 PORT_OUT="7000"
 ```
 
-optionally, you can add your own custom variables or customize `dockerw.sh` script because it's just a template
+optionally, you can add your own custom variables or customize `dockerw.sh` script or modify whole script as you need because it's just a template
 
 by default you can call `./dockerw.sh` script with one of the following options:
 
