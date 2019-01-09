@@ -10,7 +10,7 @@ function showHelp() {
                 --build     builds container
                 --run       runs container
                 --runbg     runs container in background
-                --cli       runs container with interactive cli (when possible)
+                --cli       runs container with interactive cli (bash)
                 --push      pushes container to docker hub
                 --pull      pulls container from docker hub
                 --stop      stops running docker container
@@ -33,7 +33,7 @@ function runDockerInBackground() {
 }
 
 function runDockerCli() {
-   sudo docker run -i -t $IMAGE_NAME
+   sudo docker exec -it $IMAGE_NAME /bin/bash
 }
 
 function pushDocker() {
